@@ -1,18 +1,31 @@
 //  Main Color
 $body-bg: #fff;
+
+// Text Color
 $text-color: #333;
+$text-color-main: #000000;
+$text-color--p:#898989;
+$text-color--footer: #959595;
 
 // Color link
-$link-color: #55b3f3;
+$link-color: #000000;
 $link-color--hover: darken($link-color, 20%);
 
 //  Typography
 $font-family: 'Roboto', Helvetica, Arial, sans-serif;
-// $font-family--helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--nav: 'Aleo', serif;
+$font-family--h3: "Aleo - Light", Helvetica, Arial, sans-serif;
+$font-family--btn: "Aleo - Light", Helvetica, Arial, sans-serif;
 
 // Main Typography variables
+$font-size--12px: 12px;
 $font-size: 14px;
+$font-size--h1: 80px;
+$font-weight--thin: 100; // Thin
+$font-weight--lite: 300; // Lite
 $font-weight: 400; // Regular
+$font-weight--bold: 700; // Bold
+
 $line-height: 1.2;
 
 // Custom Container setting

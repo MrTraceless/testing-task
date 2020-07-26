@@ -6,8 +6,23 @@
   outline: 0 none;
   border: 0 none;
   border-radius: 0;
-  padding: 8px 25px;
-  background-color: #000;
   text-transform: uppercase;
-  color: #fff;
+  cursor: pointer;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+
+.btn-register {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Aleo;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding: 1px 40px;
+    margin-top: 30px;
 }

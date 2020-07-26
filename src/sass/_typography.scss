@@ -1,27 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 
 @font-face {
 	font-family: 'AbrilFatface';
-	src: url('fonts/AbrilFatface-Regular.eot');
-	src: local('☺'), url('fonts/AbrilFatface-Regular.woff') format('woff'), url('fonts/AbrilFatface-Regular.ttf') format('truetype'), url('fonts/AbrilFatface-Regular.svg') format('svg');
+	src: url('../fonts/AbrilFatface-Regular.eot');
+	src: local('☺'), url('../fonts/AbrilFatface-Regular.woff') format('woff'), url('../fonts/AbrilFatface-Regular.ttf') format('truetype'), url('../fonts/AbrilFatface-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'MyriadPro';
-	src: url('fonts/MyriadPro-Regular.eot');
-	src: local('☺'), url('fonts/MyriadPro-Regular.woff') format('woff'), url('fonts/MyriadPro-Regular.ttf') format('truetype'), url('fonts/MyriadPro-Regular.svg') format('svg');
+	src: url('../fonts/MyriadPro-Regular.eot');
+	src: local('☺'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'MyriadPro';
-	src: url('fonts/MyriadPro-Bold.eot');
-	src: local('☺'), url('fonts/MyriadPro-Bold.woff') format('woff'), url('fonts/MyriadPro-Bold.ttf') format('truetype'), url('fonts/MyriadPro-Bold.svg') format('svg');
+	src: url('../fonts/MyriadPro-Bold.eot');
+	src: local('☺'), url('../fonts/MyriadPro-Bold.woff') format('woff'), url('../fonts/MyriadPro-Bold.ttf') format('truetype'), url('../fonts/MyriadPro-Bold.svg') format('svg');
 	font-weight: 700;
 	font-style: normal;
 }
