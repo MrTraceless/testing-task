@@ -2,6 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @include max-w(448px) {
+    flex-direction: column;
+    padding-top: 25px;
+  }
 }
 
 .main-nav {
@@ -25,10 +30,22 @@
   display: flex;
   align-items: center;
   padding: 40px 0;
+
+  @include max-w(448px) {
+    padding: 20px 0;
+  }
 }
 
 .search {
   padding-right: 65px;
+
+  @include max-w(768px) {
+    padding-right: 20px;
+  }
+
+  @include max-w(448px) {
+    padding-right: 0;
+  }
 
   &__btn {
     display: flex;
@@ -45,7 +62,15 @@
 
 
 .cart {
-  padding-left: 30px;
+  padding-left: 15px;
+
+  @include max-w(768px) {
+    padding-right: 15px;
+  }
+
+  @include max-w(448px) {
+    padding-right: 0;
+  }
 
   &__btn {
     display: flex;
@@ -61,6 +86,14 @@
   position: relative;
   display: inline-block;
   padding: 0 28px;
+
+  @include max-w(768px) {
+    padding: 0 14px;
+  }
+
+  @include max-w(768px) {
+    padding: 0 5px;
+  }
 
   &-nickname {
     padding-left: 5px;

@@ -5,18 +5,35 @@
   padding-top: 30px;
   padding-bottom: 35px;
 
+  @include max-w(560px) {
+    flex-direction: column;
+  }
+
   &-rules {
     display: flex;
 
+    @include max-w(560px) {
+      flex-direction: column;
+      text-align: center;
+    }
+
     &__text {
       color: #959595;
-      font-family: $font-family; 
+      font-family: $font-family;
       font-size: $font-size;
       font-weight: $font-weight--lite;
+
+      @include max-w(560px) {
+        padding-top: 15px;
+      }
     }
 
     &__text:nth-child(1) {
       padding-right: 94px;
+
+      @include max-w(560px) {
+        padding-right: 0;
+      }
     }
   }
 }

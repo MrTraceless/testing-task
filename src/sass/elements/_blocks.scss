@@ -1,5 +1,10 @@
 .box-container {
   display: flex;
+
+  @include max-w(992px) {
+    flex-direction: column;
+    flex: 0 0 30%;
+  }
 }
 
 .box {
@@ -7,6 +12,12 @@
   padding-left: 61px;
   display: flex;
   flex: 0 0 0.33.333%;
+
+  @include max-w(992px) {
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+  }
 
   &:first-child {
     padding-left: 0;
@@ -24,8 +35,17 @@
 
 .text-block {
 
+  @include max-w(992px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   &__title-align {
     padding-bottom: 25px;
+
+    @include max-w(992px) {
+      padding-bottom: 10px;
+    }
 
     &--p25 {
       padding-top: 25px;

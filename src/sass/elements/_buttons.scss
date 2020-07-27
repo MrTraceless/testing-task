@@ -25,4 +25,9 @@
     text-transform: uppercase;
     padding: 1px 40px;
     margin-top: 30px;
+
+    @include max-w(768px) {
+      padding:0 15px;
+      font-size: 10px;
+    }
 }

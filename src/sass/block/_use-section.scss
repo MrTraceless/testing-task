@@ -2,11 +2,25 @@
   display: flex;
   justify-content: space-between;
 
+@include max-w(1382px) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
   &__title {
     position: absolute;
     top: 30%;
     left: 70%;
     text-align: center;
+
+    @include max-w(1382px) {
+      padding-top: 30px;
+      display: block;
+      position: static;
+      order: -1;
+      text-align: center;
+    }
   }
 
   &-image-block {
@@ -14,14 +28,31 @@
     width: 50%;
     padding-right: 100px;
 
+    @include max-w(1382px) {
+      width: 100%;
+      padding-right: 0;
+      padding-bottom: 50px;
+      text-align: center;
+    }
+
   }
 
   &-text-container {
     width: 50%;
     padding-left: 100px;
+
+    @include max-w(768px) {
+      padding-left: 0;
+      width: 75%;
+      text-align: center;
+    }
   }
 }
 
 .align {
   max-width: 300px;
+
+  @include max-w(768px) {
+    max-width: 100%;
+  }
 }
