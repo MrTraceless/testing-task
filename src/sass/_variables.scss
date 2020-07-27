@@ -1,5 +1,5 @@
 //  Main Color
-$body-bg: #fff;
+$body-bg: #f8f8f8;
 
 // Text Color
 $text-color: #333;
@@ -14,17 +14,28 @@ $link-color--hover: darken($link-color, 20%);
 //  Typography
 $font-family: 'Roboto', Helvetica, Arial, sans-serif;
 $font-family--nav: 'Aleo', serif;
-$font-family--h3: "Aleo - Light", Helvetica, Arial, sans-serif;
-$font-family--btn: "Aleo - Light", Helvetica, Arial, sans-serif;
+$font-family--h2: "MyriadPro", Helvetica, Arial, sans-serif;
+$font-family--h3: 'Aleo', serif;
+$font-family--h4: 'Aleo', serif;
+$font-family--btn: 'Aleo', serif;
+$font-family--subtitle: 'Aleo', serif;
 
 // Main Typography variables
 $font-size--12px: 12px;
+$font-size--16px: 16px;
+$font-size--18px: 18px;
 $font-size: 14px;
 $font-size--h1: 80px;
+$font-size--h2: 40px;
+$font-size--h3: 18px;
+$font-size--h4: 18px;
+
 $font-weight--thin: 100; // Thin
 $font-weight--lite: 300; // Lite
 $font-weight: 400; // Regular
 $font-weight--bold: 700; // Bold
+
+$font-style--italic: italic;
 
 $line-height: 1.2;
 

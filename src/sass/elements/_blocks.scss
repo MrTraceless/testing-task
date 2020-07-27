@@ -1,0 +1,39 @@
+.box-container {
+  display: flex;
+}
+
+.box {
+  padding-right: 61px;
+  padding-left: 61px;
+  display: flex;
+  flex: 0 0 0.33.333%;
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
+  }
+ }
+
+
+.item-block {
+  padding-right: 20px;
+}
+
+.text-block {
+
+  &__title-align {
+    padding-bottom: 25px;
+
+    &--p25 {
+      padding-top: 25px;
+    }
+  }
+
+  &__paragraph-align {
+    max-width: 236px;
+  }
+
+}

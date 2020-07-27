@@ -1,0 +1,33 @@
+.community {
+  display: flex;
+  justify-content: center;
+
+  &-block {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+
+  &-image-container {
+    width: 65%;
+    max-width: 1043px;
+  }
+}
+
+.community-container {
+  max-width: 402px;
+  padding-right: 94px;
+
+  &__community-container__text {
+    text-align: center;
+  }
+
+  &__title {
+    width: 320px;
+  }
+}
+
+

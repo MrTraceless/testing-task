@@ -1,0 +1,38 @@
+.account-text {
+  color: $text-color-main;
+  font-family: $font-family--nav;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.page-title-h2 {
+  color: $text-color-main;
+  font-family: "MyriadPro";
+  font-size: $font-size--h2;
+  font-weight: $font-weight;
+}
+.page-title-h3 {
+  color: $text-color-main;
+  font-family: "Abril Fatface";
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.page-title-h4 {
+  color: $text-color-main;
+  font-family: $font-family--h4;
+  font-size: $font-size--h4;
+  font-weight: $font-weight--bold;
+}
+
+.page-text {
+  font-size: $font-size--16px;
+  font-family: $font-family;
+  font-weight: $font-weight--lite;
+  color: $text-color--p;
+}
+
+

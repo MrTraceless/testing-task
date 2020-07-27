@@ -1,0 +1,27 @@
+.use {
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    text-align: center;
+  }
+
+  &-image-block {
+    position: relative;
+    width: 50%;
+    padding-right: 100px;
+
+  }
+
+  &-text-container {
+    width: 50%;
+    padding-left: 100px;
+  }
+}
+
+.align {
+  max-width: 300px;
+}
