@@ -1,0 +1,43 @@
+.navigation {
+  position: fixed;
+  z-index: 100;
+  width: 100px;
+  height: auto;
+  bottom: auto;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  left: auto;
+  display: block;
+}
+
+.navigation__counter {
+  padding-right: 5px;
+  color: rgb(189, 145, 145);
+}
+
+.navigation__item {
+    display: block;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+
+
+    @include max-w(992px) {
+      display: none;
+    }
+  }
+
+.navigation__link {
+    height: 2px;
+    width: 20px;
+    background-color: rgb(189, 145, 145);
+
+    &--active {
+      width: 40px;
+    }
+
+
+  }

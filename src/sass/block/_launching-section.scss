@@ -1,5 +1,4 @@
 .launching-section {
-  
 }
 
 
@@ -11,8 +10,9 @@
   background-image: url('../../images/Launching.png');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
   min-height: 650px;
+  text-align: center;    
+
 
   @include max-w(992px) {
     min-height: 450px;
@@ -30,7 +30,6 @@
     // font-size: $font-size--h1;
     @include fluid-font(25px, 80px, 320px, 1920px);
     font-weight: 400;
-
   }
 
   &__span {
